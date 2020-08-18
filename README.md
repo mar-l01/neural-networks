@@ -17,5 +17,10 @@ Depending on the application, neural networks are trained in different ways:
 ## Neural networks
 Though the name might imply it, neural networks are not exact copies of their biological counterparts. A neural networks is built-up by multiple neurons. They are connected layer-wise, i.e. neurons of one layer are connected to each neuron in the adjacent layer. There are variatons of neural networks where not all neurons of one layer are connected to each one in the adjacent layer to improve learning or predictions. An example of a so-called fully-connected feedforward neural network is given below:
 
-![Feedforward Neural Network](/figures/neural_network.png)
+![Feedforward Neural Network](/figures/neural_network.png)  
 *Figure 1: A fully-connected feedforward neural network*
+
+Other variations of such networks will be explained later. They range from those with loops to those that are not fully connected. But not matter which type of neural networks is chosen, there is one thing that is the same for all. They are all built-up by so-called neurons.
+
+## Neurons - the basic unit of neural networks
+Neurons are the computing unit of neural networks, they transfer information from one to another. Based on the biological system, one can also say that they fire in different strengths. The amount of information these neurons pass on to adjacent neurons is mostly computed the following way: All inputs <img src="https://render.githubusercontent.com/render/math?math=x_{i}"> are weighted by <img src="https://render.githubusercontent.com/render/math?math=w_{i}">. A bias value _b_ is added. The result is then passed into an activation function _a_, which then results the output _y(x)_ that is passed on to the adjacent neurons. A mathematical represenation looks as following: <img src="https://render.githubusercontent.com/render/math?math=y(x) = a(\sum_{i} x_{i}w_{i} %2Bb)">
