@@ -15,4 +15,7 @@ Depending on the application, neural networks are trained in different ways:
 - __Reinforcement learning__: An agent learns to  move in an unknown environment by receiving rewards for each action. The higher the reward, the better his action is/was. This way, the agent learns the best way to move by maximizing its reward.
 
 ## Neural networks
-Though the name might imply it, neural networks are not exact copies of their biological counterparts. A neural networks is built-up by multiple neurons. They are connected layer-wise, i.e. neurons of one layer are connected to each neuron in the adjacent layer. There are variatons of neural networks where not all neurons of one layer are connected to each one in the adjacent layer to improve learning or predictions.
+Though the name might imply it, neural networks are not exact copies of their biological counterparts. A neural networks is built-up by multiple neurons. They are connected layer-wise, i.e. neurons of one layer are connected to each neuron in the adjacent layer. There are variatons of neural networks where not all neurons of one layer are connected to each one in the adjacent layer to improve learning or predictions. An example of a so-called fully-connected feedforward neural network is given below:
+
+![Feedforward Neural Network](/figures/neural_network.png)
+*Figure 1: A fully-connected feedforward neural network*
