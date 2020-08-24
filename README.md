@@ -28,3 +28,8 @@ Figure 2 shows a single neuron, its inputs, weights, bias and the output using i
 
 ![Neuron](/figures/neuron.png)  
 *Figure 2: A single neuron*
+
+There are several activation functions available which will be explained next.
+
+## To be continued..
+
